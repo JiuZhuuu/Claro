@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: monospace;
+    align-items: center;
+    display: flex;
+    background-color: #66ABEE;
+    color: white;
+    padding: 0;
+}
+
+button.logo {
+    border-radius: 45%;
+    margin: 0;
+    margin-left: 1%;
+    padding: 0;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1.home{
+    margin-left: 10%;
+    margin-right: 64%;
+}
+
+button.icons {
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+    padding: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#navigation {
+    display: flex;
+    background-color: #4E84C4;
+    padding: 1em;
+    width: 75%;
+}
+
+#profileBubble{
+    margin: 0 auto;
+    padding: 0;
+    width: 25%;
+    height: auto;  
+    display: block;
+}
+
+#user {
+    background-color: #4E84C4;
+    padding: 1em;
+    display: flex;
+    width: 20%;
+    margin-right: auto;
+}
+
+#announcement {
+    width: 80%;
+    margin: 0;
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    text-align: left;
+
+}
+main {
+    padding: 2%;
+}
