@@ -142,7 +142,7 @@ button.icons {
 }
 
 .day {
-    background-color: #4CAF50;
+    background-color: #66ABEE;
     color: white;
     padding: 15px;
     cursor: pointer;
@@ -151,11 +151,11 @@ button.icons {
     transition: background-color 0.3s;
 }
 .day:hover {
-    background-color: #45a049;
+    background-color: #66aaeeb5;
 }
 .schedule {
     display: none;
-    background-color: #e7f3fe;
+    background-color: #b3d9ff;
     border: 1px solid #b3d4fc;
     padding: 10px;
     margin: 5px 0;
