@@ -20,3 +20,12 @@ function changeInputType() {
             inputField.placeholder = "Select a search type";
     }
 }
+
+function toggleSchedule(day) {
+    var schedule = document.getElementById(day);
+    if (schedule.style.display === "block") {
+        schedule.style.display = "none";
+    } else {
+        schedule.style.display = "block";
+    }
+}
