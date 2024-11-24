@@ -23,13 +23,14 @@
         </div>
 
         <div id="announcement">
-            <a>Announcement</a>
-            <input type="text" placeholder="Search">
-            <select id="inputType" name="inputType">
-                <option value="Date">Date</option>
-                <option value="Course">Course</option>
-                <option value="Word">Word</option>
+            <label for="searchType">Announcement</label>
+            <select id="searchType" onchange="changeInputType()">
+                <option value="">--Choose an option--</option>
+                <option value="course">Course Search</option>
+                <option value="word">Word Search</option>
+                <option value="date">Date Search</option>
             </select>
+            <input id="searchInput" type="text" placeholder="Select a search type..." />
         </div>
     </div>
 

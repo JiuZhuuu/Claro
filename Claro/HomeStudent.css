@@ -120,15 +120,24 @@ button.icons {
 
 #course {
     display: flex;
-    background-color: #66ABEE;
-    height: 20%;
+    height: 40%;
     width: 20%;
-    text-align: center;
-    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    border-right: 1px solid #4e83c40f;
     position: relative;
+}
+
+#searchC {
+    width: 100%;
+    background-color: #66ABEE;
+    height: 30%;
+    border-bottom-right-radius: 40%;
+    box-sizing: border-box;
 }
 
 #searchC > a {
     font-weight: bold;
     color: aliceblue;
 }
+
